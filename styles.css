@@ -1,0 +1,242 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: rgb(84, 196, 240); /* Azul claro */
+    padding: 20px;
+    padding-bottom: 600px;
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.034);
+    height: 100%;
+}
+
+@media (max-width: 630px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+.sidebar h1 {
+    color: #000000; /* Azul mais escuro */
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin: 15px 0;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: #000000; /* Azul mais escuro */
+    font-weight: bold;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: rgba(241, 240, 240, 0.808);
+    max-width: 600px;
+    position: relative;
+}
+
+#d-link a {
+    color: #3691c9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#d-link a:hover {
+    color: rgb(41, 176, 230);
+}
+
+.main-content section {
+    margin-bottom: 40px;
+}
+
+.main-content h2 {
+    color: #000000; /* Azul mais escuro */
+}
+
+#imagem-principal {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.616);
+}
+
+.mud-cor:hover {
+    background-color: skyblue;
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 0.3s;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.397);
+}
+
+.mud-cor {
+    display: block;
+    width: 80px;
+    padding: 5px;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+.movimento-img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.movimento-img {
+    width: 60px;
+    height: 60px;
+    display: block;
+    float: left;
+}
+
+#d-link a:hover {
+    cursor: pointer;
+    color: #00aeffa8;
+}
+
+#d-link a {
+    display: block;
+    padding: 5px;
+    color: #00aeff;
+}
+
+#top-bar {
+    width: 100%;
+    height: 90px; /* Ajuste a altura conforme necessário */
+    background-color: #000000;
+    color: skyblue;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px; /* Centraliza o texto verticalmente */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Garante que a barra fique acima de outros elementos */
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.637);
+}
+
+#imagem-secundaria {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+    display: block;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.616);
+}
+
+.mud-cor-sec {
+    display: block;
+    color: skyblue;
+    text-decoration: none;
+    float: left;
+}
+
+.link-origin:hover {
+    color: rgba(255, 255, 255, 0.658);
+    cursor: pointer;
+}
+
+.link-origin {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    width: 0px;
+    padding: 10px;
+    height: 0px;
+}
+
+.container {
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.651);
+    width: 70%;
+}
+.container:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651);
+}
+
+.use {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.use.visible {
+    opacity: 1;
+}
+.imagem-eu {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.imagem-eu.visible {
+    opacity: 1;
+}
+.container2 {
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0, 0.849);
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(241, 240, 240, 0.808);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.651);
+    width: 70%;
+}
+
+.container2:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651);
+}
+
+#contatos {
+    margin-top: auto;
+}
+#section-cor {
+    background-color: rgba(241, 240, 240, 0.808);
+}
+.bloco {
+    margin-top: 150px;
+    position: absolute;
+    padding: 15px;
+    left: 10%;
+    top: 10%;
+}
+.bloco:hover {
+    cursor: pointer;
+    color: #000000ab;
+}
+#bloco-back {
+    
+}
+#bloco-front {
+    position: absolute;
+    padding: 15px;
+    left: 65%;
+    top: 10%;
+}
+h1 {
+    font-size: 40px;
+}
