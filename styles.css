@@ -229,13 +229,16 @@ abbr {
     color: #000000ab;
 }
 #bloco-back {
-    
+    width: 25%;
+    border: 1px solid black;
 }
 #bloco-front {
     position: absolute;
     padding: 15px;
     left: 65%;
     top: 10%;
+    width: 25%;
+    border: 1px solid black;
 }
 h1 {
     font-size: 40px;
