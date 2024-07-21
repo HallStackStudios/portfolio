@@ -171,7 +171,7 @@ abbr {
     padding: 20px;
     border: 2px solid black;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.651);
-    width: 80%;
+    width: 85%;
 }
 .container:hover {
     transform: scale(1.02);
@@ -202,7 +202,7 @@ abbr {
     padding: 20px;
     background-color: rgba(241, 240, 240, 0.808);
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.651);
-    width: 80%;
+    width: 85%;
 }
 
 .container2:hover {
@@ -239,4 +239,12 @@ abbr {
 }
 h1 {
     font-size: 40px;
+}
+.bf-end:hover {
+    cursor: pointer;
+    color: #000000ab;
+}
+.bf-end {
+    color: #000000;
+    text-decoration: none;
 }
