@@ -203,6 +203,7 @@ abbr {
     background-color: rgba(241, 240, 240, 0.808);
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.651);
     width: 85%;
+    margin-top: 10%;
 }
 
 .container2:hover {
