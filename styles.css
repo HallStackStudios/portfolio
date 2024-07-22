@@ -127,9 +127,6 @@ abbr {
     font-weight: bold;
     text-align: center;
     line-height: 60px; /* Centraliza o texto verticalmente */
-    position: absolute;
-    top: 0;
-    left: 0;
     z-index: 1000; /* Garante que a barra fique acima de outros elementos */
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.637);
 }
@@ -203,7 +200,6 @@ abbr {
     background-color: rgba(241, 240, 240, 0.808);
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.651);
     width: 82%;
-    margin-top: 10%;
 }
 
 .container2:hover {
