@@ -170,7 +170,7 @@ abbr {
     border: 2px solid black;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.651);
     width: 82%;
-    margin-top: 10%;
+    margin-top: 150px;
 }
 .container:hover {
     transform: scale(1.02);
@@ -202,7 +202,7 @@ abbr {
     background-color: rgba(241, 240, 240, 0.808);
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.651);
     width: 82%;
-    margin-top: 10%;
+    margin-top: 150px;
 }
 
 .container2:hover {
