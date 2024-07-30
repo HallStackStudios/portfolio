@@ -221,9 +221,9 @@ abbr {
 .bloco {
     margin-top: 150px;
     position: absolute;
-    padding: 15px;
     left: 10%;
     top: 10%;
+    min-width: 200px;
 }
 .bloco:hover {
     cursor: pointer;
@@ -231,15 +231,12 @@ abbr {
 }
 #bloco-back {
     width: 25%;
-    border: 1px solid black;
 }
 #bloco-front {
     position: absolute;
-    padding: 15px;
     left: 65%;
     top: 10%;
     width: 25%;
-    border: 1px solid black;
 }
 h1 {
     font-size: 40px;
@@ -251,4 +248,21 @@ h1 {
 .bf-end {
     color: #000000;
     text-decoration: none;
+}
+@media (max-width: 500px) {
+    #bloco-front {
+        font-size: 13px;
+        margin-top: 4%;
+    }
+    #bloco-back {
+        font-size: 13px;
+        margin-top: 4%;
+    }
+    .bf-end h1 {
+        font-size: 22px;
+        margin-top: 23%;
+    }
+    .bf-end p {
+        font-size: 13px;
+    }
 }
