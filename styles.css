@@ -228,6 +228,8 @@ abbr {
 .bloco:hover {
     cursor: pointer;
     color: #000000ab;
+    transform: scale(1.06);
+    transition: transform 0.3s ease 0.2s;
 }
 #bloco-back {
     width: 25%;
