@@ -223,13 +223,13 @@ abbr {
     position: absolute;
     left: 10%;
     top: 10%;
-    min-width: 200px;
+    min-width: 180px;
 }
 .bloco:hover {
     cursor: pointer;
     color: #000000ab;
     transform: scale(1.06);
-    transition: transform 0.3s ease 0.2s;
+    transition: transform 0.3s;
 }
 #bloco-back {
     width: 25%;
@@ -261,12 +261,12 @@ h1 {
     }
     #bloco-front {
         font-size: 13px;
-        margin-top: 4%;
+        margin-top: 7%;
         left: 55%;
     }
     #bloco-back {
         font-size: 13px;
-        margin-top: 4%;
+        margin-top: 7%;
     }
     .bf-end h1 {
         font-size: 22px;
