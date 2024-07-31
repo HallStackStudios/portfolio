@@ -172,10 +172,10 @@ abbr {
     width: 82%;
     margin-top: 150px;
     margin-bottom: 50px;
+    transition: transform 0.3s ease 0.1s;
 }
 .container:hover {
     transform: scale(1.02);
-    transition: transform 0.3s;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651);
 }
 
@@ -205,11 +205,11 @@ abbr {
     width: 82%;
     margin-top: 150px;
     margin-bottom: 100px;
+    transition: transform 0.3s ease 0.1s;
 }
 
 .container2:hover {
     transform: scale(1.02);
-    transition: transform 0.3s;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651);
 }
 
@@ -225,12 +225,12 @@ abbr {
     left: 10%;
     top: 10%;
     min-width: 170px;
+    transition: transform 0.3s ease 0.1s;
 }
 .bloco:hover {
     cursor: pointer;
     color: #000000ab;
     transform: scale(1.06);
-    transition: transform 0.3s;
 }
 #bloco-back {
     width: 25%;
@@ -284,6 +284,10 @@ h1 {
     float: right;
     margin-right: 30px;
     margin-top: 180px;
+    transition: transform 0.3s ease 0.1s;
+}
+#imagem-grafico:hover {
+    transform: scale(1.06);
 }
 #container3 {
     display: block;
@@ -293,7 +297,7 @@ h1 {
     padding: 20px;
     background-color: rgba(241, 240, 240, 0.808);
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.651);
-    width: 68%;
+    width: 66%;
     margin-top: 150px;
     margin-bottom: 100px;
     margin-left: 40px;
