@@ -223,7 +223,7 @@ abbr {
     position: absolute;
     left: 10%;
     top: 10%;
-    min-width: 180px;
+    min-width: 170px;
 }
 .bloco:hover {
     cursor: pointer;
