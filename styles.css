@@ -283,5 +283,24 @@ h1 {
     display: block;
     float: right;
     margin-right: 30px;
+    margin-top: 180px;
+}
+#container3 {
+    display: block;
+    float: left;
+    border: 2px solid rgba(0, 0, 0, 0.849);
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(241, 240, 240, 0.808);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.651);
+    width: 68%;
     margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+}
+
+#container3:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651);
 }
