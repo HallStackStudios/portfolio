@@ -277,3 +277,11 @@ h1 {
         font-size: 13px;
     }
 }
+#imagem-grafico {
+    height: 300px;
+    width: 300px;
+    display: block;
+    float: right;
+    margin-right: 30px;
+    margin-top: 150px;
+}
