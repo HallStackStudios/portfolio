@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     observer.observe(imageContainer);
 }); 
-function movimento1() {
+/*function movimento1() {
     var apagar1 = window.document.getElementById('bloco-front')
     apagar1.style.color = "whitesmoke"
 }
@@ -49,4 +49,4 @@ function movimento2() {
 function sair2() {
     var sair2 = window.document.getElementById('bloco-back')
     sair2.style.color = ""
-}
+}*/
