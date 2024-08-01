@@ -237,12 +237,12 @@ abbr {
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.651);
     width: 60%;
     margin-top: 150px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     margin-left: 40px;
+    transition: transform 0.3s ease;
 }
 .container3:hover {
     transform: scale(1.02);
-    transition: transform 0.3s;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651);
 }
 #contatos {
@@ -309,23 +309,18 @@ h1 {
         font-size: 13px;
     }
 }
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .container3 {
         width: 79%;
         margin: auto;
         margin-top: 25%;
         margin-left: 7%;
     }
-    .imagens-g {
-        display: flex;
-        text-align: center;
-        float: left;
-    }
 }
 .imagens-g {
-    width: 320px;
+    width: 450px;
+    height: 450px;
     margin-top: 12%;
-    height: 320px;
     display: block;
     float: right;
     transition: transform 0.3s ease 0.1s;
@@ -341,4 +336,7 @@ h1 {
 }
 .link-bfs:hover {
     color: rgb(90, 203, 248);
+}
+#imagem-lgs {
+    display: flex;
 }
