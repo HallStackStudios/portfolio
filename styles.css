@@ -161,6 +161,7 @@ abbr {
     width: 0px;
     padding: 10px;
     height: 0px;
+    border-radius: 20px;
 }
 
 .container {
@@ -173,6 +174,7 @@ abbr {
     margin-top: 150px;
     margin-bottom: 50px;
     transition: transform 0.3s ease 0.1s;
+    background-color: rgba(231, 231, 231, 0.836);
 }
 .container:hover {
     transform: scale(1.02);
@@ -200,7 +202,7 @@ abbr {
     border: 2px solid rgba(0, 0, 0, 0.849);
     border-radius: 20px;
     padding: 20px;
-    background-color: rgba(241, 240, 240, 0.808);
+    background-color: rgba(231, 231, 231, 0.836);
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.651);
     width: 82%;
     margin-top: 150px;
@@ -295,14 +297,13 @@ h1 {
     border: 2px solid rgba(0, 0, 0, 0.849);
     border-radius: 20px;
     padding: 20px;
-    background-color: rgba(241, 240, 240, 0.808);
+    background-color: rgba(231, 231, 231, 0.836);
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.651);
     width: 66%;
     margin-top: 150px;
     margin-bottom: 100px;
     margin-left: 40px;
 }
-
 #container3:hover {
     transform: scale(1.02);
     transition: transform 0.3s;
