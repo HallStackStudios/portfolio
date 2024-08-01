@@ -175,6 +175,13 @@ abbr {
     margin-bottom: 50px;
     transition: transform 0.3s ease 0.1s;
     background-color: rgba(231, 231, 231, 0.836);
+    opacity: 0;
+    transform: translateX(-100px); /* Começa fora da tela à esquerda */
+    transition: all 0.5s ease-out;
+}
+.visible1 {
+    opacity: 1;
+    transform: translateX(0); /* Move para a posição original */
 }
 .container:hover {
     transform: scale(1.02);
@@ -208,8 +215,14 @@ abbr {
     margin-top: 150px;
     margin-bottom: 100px;
     transition: transform 0.3s ease 0.1s;
+    opacity: 0;
+    transform: translateX(-100px); /* Começa fora da tela à esquerda */
+    transition: all 0.5s ease-out;
 }
-
+.visible1 {
+    opacity: 1;
+    transform: translateX(0); /* Move para a posição original */
+}
 .container2:hover {
     transform: scale(1.02);
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651);
@@ -291,7 +304,7 @@ h1 {
 #imagem-grafico:hover {
     transform: scale(1.06);
 }
-#container3 {
+.container3 {
     display: block;
     float: left;
     border: 2px solid rgba(0, 0, 0, 0.849);
@@ -303,8 +316,15 @@ h1 {
     margin-top: 150px;
     margin-bottom: 100px;
     margin-left: 40px;
+    opacity: 0;
+    transform: translateX(-100px); /* Começa fora da tela à esquerda */
+    transition: all 0.5s ease-out;
 }
-#container3:hover {
+.visible1 {
+    opacity: 1;
+    transform: translateX(0); /* Move para a posição original */
+}
+.container3:hover {
     transform: scale(1.02);
     transition: transform 0.3s;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651);
