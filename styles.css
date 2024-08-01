@@ -160,6 +160,7 @@ abbr {
     padding: 10px;
     height: 0px;
     border-radius: 20px;
+    transition: all 0.2s ease-out;
 }
 
 .container {
@@ -234,7 +235,7 @@ abbr {
     padding: 20px;
     background-color: rgba(231, 231, 231, 0.836);
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.651);
-    width: 66%;
+    width: 60%;
     margin-top: 150px;
     margin-bottom: 100px;
     margin-left: 40px;
@@ -308,15 +309,31 @@ h1 {
         font-size: 13px;
     }
 }
+@media (max-width: 800px) {
+    .container3 {
+        width: 79%;
+        margin: auto;
+        margin-top: 25%;
+        margin-left: 7%;
+    }
+}
 #imagem-grafico {
-    height: 300px;
-    width: 300px;
+    width: 320px;
+    margin-top: 12%;
+    height: 320px;
     display: block;
     float: right;
-    margin-right: 30px;
-    margin-top: 180px;
     transition: transform 0.3s ease 0.1s;
+    margin-right: 3.5%;
 }
 #imagem-grafico:hover {
     transform: scale(1.06);
+}
+#link-bfs {
+    text-decoration: none;
+    color: rgb(71, 193, 241);
+    font-weight: bolder;
+}
+#link-bfs:hover {
+    color: rgb(90, 203, 248);
 }
