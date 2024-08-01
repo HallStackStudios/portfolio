@@ -1,11 +1,3 @@
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
 document.addEventListener('DOMContentLoaded', function() {
     const imageContainer = document.querySelector('.use');
 
@@ -20,15 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     observer.observe(imageContainer);
 });
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
-
 document.addEventListener("DOMContentLoaded", function () {
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
@@ -42,6 +25,17 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Selecione todos os elementos que quer animar
-    const hiddenElements = document.querySelectorAll('.container, .container2, .container3');
+    const hiddenElements = document.querySelectorAll('.container, .container2');
     hiddenElements.forEach(el => observer.observe(el));
+});
+document.addEventListener("DOMContentLoaded", function () {
+    const topBar = document.getElementById('top-bar');
+
+    // Função para animar o top-bar
+    function showTopBar() {
+        topBar.classList.add('visible2'); // Adiciona a classe 'visible' para o top-bar
+    }
+
+    // Chama a função para exibir o top-bar após um pequeno atraso
+    setTimeout(showTopBar, 500); // Ajuste o tempo de atraso conforme necessário
 });

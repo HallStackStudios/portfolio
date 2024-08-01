@@ -131,7 +131,6 @@ abbr {
     z-index: 1000; /* Garante que a barra fique acima de outros elementos */
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.637);
 }
-
 #imagem-secundaria {
     width: 70px;
     height: 70px;
@@ -227,7 +226,23 @@ abbr {
     transform: scale(1.02);
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651);
 }
-
+.container3 {
+    float: left;
+    border: 2px solid rgba(0, 0, 0, 0.849);
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(231, 231, 231, 0.836);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.651);
+    width: 66%;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+}
+.container3:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651);
+}
 #contatos {
     margin-top: auto;
 }
@@ -303,22 +318,4 @@ h1 {
 }
 #imagem-grafico:hover {
     transform: scale(1.06);
-}
-.container3 {
-    display: block;
-    float: left;
-    border: 2px solid rgba(0, 0, 0, 0.849);
-    border-radius: 20px;
-    padding: 20px;
-    background-color: rgba(231, 231, 231, 0.836);
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.651);
-    width: 66%;
-    margin-top: 150px;
-    margin-bottom: 100px;
-    margin-left: 40px;
-}
-.container3:hover {
-    transform: scale(1.02);
-    transition: transform 0.3s;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651);
 }
