@@ -20,42 +20,28 @@ document.addEventListener('DOMContentLoaded', function() {
 
     observer.observe(imageContainer);
 });
-document.addEventListener("DOMContentLoaded", function() {
-    const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible1');
-            }
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
         });
     });
-
-    // Selecione todas as divs que quer animar
-    const hiddenElements = document.querySelectorAll('.container');
-    hiddenElements.forEach(el => observer.observe(el));
 });
-document.addEventListener("DOMContentLoaded", function() {
+
+document.addEventListener("DOMContentLoaded", function () {
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                entry.target.classList.add('visible1');
+                entry.target.classList.add('visible1'); // Adiciona a classe visível
+                observer.unobserve(entry.target); // Para parar de observar após a animação
             }
         });
+    }, {
+        threshold: 0.1 // Percentual de visibilidade necessário para acionar a animação
     });
 
-    // Selecione todas as divs que quer animar
-    const hiddenElements = document.querySelectorAll('.container2');
-    hiddenElements.forEach(el => observer.observe(el));
-});
-document.addEventListener("DOMContentLoaded", function() {
-    const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible1');
-            }
-        });
-    });
-
-    // Selecione todas as divs que quer animar
-    const hiddenElements = document.querySelectorAll('.container3');
+    // Selecione todos os elementos que quer animar
+    const hiddenElements = document.querySelectorAll('.container, .container2, .container3');
     hiddenElements.forEach(el => observer.observe(el));
 });
