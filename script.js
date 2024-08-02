@@ -1,3 +1,4 @@
+windows.alert('ATENÇÃO! Site passando por manutenções!')
 document.addEventListener('DOMContentLoaded', function() {
     const imageContainer = document.querySelector('.use');
 
