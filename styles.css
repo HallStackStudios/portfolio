@@ -311,10 +311,15 @@ h1 {
 }
 @media (max-width: 1000px) {
     .container3 {
+        margin: auto;
+        border: 2px solid rgba(0, 0, 0, 0.849);
+        border-radius: 20px;
+        padding: 20px;
+        background-color: rgba(231, 231, 231, 0.836);
+        box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.651);
+        width: 79%;
+        max-width: 79%;
         margin-top: 150px;
-        width: 80%;
-        margin-right: auto;
-        margin-left: auto;
     }
     .imagens-g {
         display: nome;
