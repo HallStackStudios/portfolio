@@ -311,14 +311,13 @@ h1 {
 }
 @media (max-width: 1000px) {
     .container3 {
-        display: nome;
+        margin-top: 150px;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
     }
     .imagens-g {
-        display: block;
-        margin: auto;
-        margin-top: auto;
-        width: 500px;
-        height: 500px;
+        display: nome;
     }
 }
 .imagens-g {
