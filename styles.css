@@ -130,6 +130,13 @@ abbr {
     line-height: 60px; /* Centraliza o texto verticalmente */
     z-index: 1000; /* Garante que a barra fique acima de outros elementos */
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.637);
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: transform 1s ease, opacity 1s ease;
+}
+#top-bar.visible2 {
+    transform: translateY(0);
+    opacity: 1;
 }
 #imagem-secundaria {
     width: 70px;
