@@ -331,10 +331,10 @@ h1 {
         padding: 20px;
         background-color: rgba(231, 231, 231, 0.836);
         box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.651);
-        width: 84%;
-        max-width: 84%;
+        width: 80%;
+        max-width: 80%;
         margin-top: 150px;
-        margin-left: 2.5%;
+        margin-left: 30px;
     }
     #imagem-lgs {
         display: none;
