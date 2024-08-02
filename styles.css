@@ -313,13 +313,20 @@ h1 {
     .container3 {
         width: 79%;
         margin: auto;
-        margin-top: 25%;
+        margin-top: 150px;
         margin-left: 7%;
+    }
+    .imagens-g {
+        display: block;
+        margin: auto;
+        margin-top: auto;
+        width: 500px;
+        height: 500px;
     }
 }
 .imagens-g {
-    width: 450px;
-    height: 450px;
+    width: 370px;
+    height: 370px;
     margin-top: 12%;
     display: block;
     float: right;
