@@ -323,7 +323,7 @@ h1 {
         font-size: 13px;
     }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1251px) {
     .container3 {
         margin: auto;
         border: 2px solid rgba(0, 0, 0, 0.849);
@@ -331,12 +331,15 @@ h1 {
         padding: 20px;
         background-color: rgba(231, 231, 231, 0.836);
         box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.651);
-        width: 79%;
-        max-width: 79%;
+        width: 84%;
+        max-width: 84%;
         margin-top: 150px;
+        margin-left: 5%;
     }
     #imagem-lgs {
         display: none;
+        opacity: 0;
+        transition: 0;
     }
 }
 .imagens-g {
