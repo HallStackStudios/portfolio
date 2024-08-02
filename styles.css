@@ -311,17 +311,18 @@ h1 {
 }
 @media (max-width: 1000px) {
     .container3 {
+        margin: auto;
+        border: 2px solid rgba(0, 0, 0, 0.849);
+        border-radius: 20px;
+        padding: 20px;
+        background-color: rgba(231, 231, 231, 0.836);
+        box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.651);
         width: 79%;
-        margin: auto;
+        max-width: 79%;
         margin-top: 150px;
-        margin-left: 7%;
     }
-    .imagens-g {
-        display: block;
-        margin: auto;
-        margin-top: auto;
-        width: 500px;
-        height: 500px;
+    #imagem-lgs {
+        display: none;
     }
 }
 .imagens-g {
