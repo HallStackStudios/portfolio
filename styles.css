@@ -240,6 +240,13 @@ abbr {
     margin-bottom: 150px;
     margin-left: 40px;
     transition: transform 0.3s ease;
+    opacity: 0;
+    transform: translateX(-100px); /* Começa fora da tela à esquerda */
+    transition: all 0.5s ease-out;
+}
+.visible1 {
+    opacity: 1;
+    transform: translateX(0); /* Move para a posição original */
 }
 .container3:hover {
     transform: scale(1.02);
@@ -333,6 +340,13 @@ h1 {
     float: right;
     transition: transform 0.3s ease 0.1s;
     margin-right: 3.5%;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: transform 1s ease, opacity 1s ease;
+}
+.imagens-g.visible3 {
+    transform: translateX(0);
+    opacity: 1;
 }
 .imagens-g:hover {
     transform: scale(1.06);

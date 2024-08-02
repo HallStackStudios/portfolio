@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Selecione todos os elementos que quer animar
-    const hiddenElements = document.querySelectorAll('.container, .container2');
+    const hiddenElements = document.querySelectorAll('.container, .container2, .container3');
     hiddenElements.forEach(el => observer.observe(el));
 });
 document.addEventListener("DOMContentLoaded", function () {
@@ -39,4 +39,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Chama a função para exibir o top-bar após um pequeno atraso
     setTimeout(showTopBar, 500); // Ajuste o tempo de atraso conforme necessário
+});
+// script.js
+document.addEventListener('DOMContentLoaded', () => {
+    const images = document.querySelectorAll('.imagens-g');
+
+    const options = {
+        threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible3');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, options);
+
+    images.forEach(image => {
+        observer.observe(image);
+    });
 });
