@@ -311,10 +311,7 @@ h1 {
 }
 @media (max-width: 1000px) {
     .container3 {
-        width: 79%;
-        margin: auto;
-        margin-top: 150px;
-        margin-left: 5%;
+        display: nome;
     }
     .imagens-g {
         display: block;
