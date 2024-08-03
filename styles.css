@@ -336,16 +336,10 @@ h1 {
         margin-top: 150px;
         margin-left: 20px;
     }
-    .imagem-lgs {
+    #imagem-lgs {
         display: none;
         opacity: 0;
         transition: 0;
-    }
-}
-@media (min-width: 1300px) {
-    .imagens-lgs {
-        width: 500px;
-        height: 500px;
     }
 }
 .imagens-g {
