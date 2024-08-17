@@ -374,6 +374,9 @@ h1 {
 #imagem-menu {
     display: none;
 }
+#menu-deslizar {
+    display: none;
+}
 @media (max-width: 500px) {
     #imagem-menu {
         display: block;

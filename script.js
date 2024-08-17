@@ -86,3 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(image);
     });
 });
+var menu = document.querySelector('#menu-deslizar')
+function clicar() {
+    menu = window.
+}
