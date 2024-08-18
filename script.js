@@ -86,3 +86,4 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(image);
     });
 });
+window.alert("SITE AINDA EM CONSTRUÇÃO")
