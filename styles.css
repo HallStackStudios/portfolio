@@ -372,5 +372,13 @@ h1 {
     display: flex;
 }
 .link-colorido {
-    color: #36a384;
+    background-image: linear-gradient(to right, #2ab856, #36a384, #3590ab);
+    max-width: 420px;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+.preto-p {
+    color: black;
 }
