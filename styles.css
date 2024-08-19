@@ -6,40 +6,6 @@ body {
     min-height: 100vh;
     background-color: whitesmoke;
 }
-.sidebar {
-    width: 30%;
-    background-color: rgb(84, 196, 240); /* Azul claro */
-    padding: 20px;
-    padding-bottom: 600px;
-    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.034);
-    height: 100%;
-}
-
-@media (max-width: 630px) {
-    .sidebar {
-        display: none;
-    }
-}
-
-.sidebar h1 {
-    color: #000000; /* Azul mais escuro */
-}
-
-.sidebar nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-.sidebar nav ul li {
-    margin: 15px 0;
-}
-
-.sidebar nav ul li a {
-    text-decoration: none;
-    color: #000000; /* Azul mais escuro */
-    font-weight: bold;
-}
-
 .main-content {
     flex-grow: 1;
     padding: 20px;
@@ -337,11 +303,11 @@ h1 {
         max-width: 80%;
         margin-top: 150px;
         margin-left: 20px;
+        margin-bottom: 50px;
     }
-    #imagem-lgs {
+    .caixa-lgs {
         display: none;
         opacity: 0;
-        transition: 0;
     }
 }
 .imagens-g {
