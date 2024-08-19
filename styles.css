@@ -273,6 +273,7 @@ abbr {
     top: 10%;
     min-width: 170px;
     transition: transform 0.3s ease 0.1s;
+    transition: all 0.3s;
 }
 .bloco:hover {
     cursor: pointer;

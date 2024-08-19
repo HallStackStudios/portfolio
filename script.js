@@ -86,3 +86,17 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(image);
     });
 });
+var blocoxf = window.document.getElementById('bloco-front')
+var blocoxb = window.document.getElementById('bloco-back')
+function mover1() {
+    blocoxf.style.opacity = "0.1"
+}
+function sair1() {
+    blocoxf.style.opacity = "1"
+}
+function mover2 () {
+    blocoxb.style.opacity = "0.1"
+}
+function sair2() {
+    blocoxb.style.opacity = "1"
+}
