@@ -107,15 +107,17 @@ abbr {
     float: left;
 }
 
-#d-link a:hover {
+.d-link a:hover {
     cursor: pointer;
-    color: #00aeffa8;
+    color: rgb(69, 182, 226);
 }
 
-#d-link a {
+.d-link a {
     display: block;
     padding: 5px;
-    color: #00aeff;
+    color: rgb(35, 173, 228);
+    text-decoration: none;
+    font-weight: bold;
 }
 
 #top-bar {
@@ -373,12 +375,21 @@ h1 {
 }
 .link-colorido {
     background-image: linear-gradient(to right, #2ab856, #36a384, #3590ab);
-    max-width: 420px;
+    max-width: 450px;
     border-radius: 10px;
-    padding: 0;
+    padding: 5px;
     margin: 0;
+}
+.link-jedi {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
-.preto-p {
-    color: black;
+.link-jedi:hover {
+    color: rgba(0, 0, 0, 0.733);
+}
+.imagem-link-jedi {
+    width: 40px;
+    height: 40px;
 }
