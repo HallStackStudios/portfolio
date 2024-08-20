@@ -100,4 +100,3 @@ function mover2 () {
 function sair2() {
     blocoxb.style.opacity = "1"
 }
-window.alert('Página passando por MODIFICAÇÕES!')
