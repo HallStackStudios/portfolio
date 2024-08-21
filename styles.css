@@ -368,11 +368,28 @@ h1 {
     margin-bottom: 0;
 }
 #img-imagem-ref {
+    display: block;
     width: 800px;
     height: 100%;
     opacity: 0;
     transition: opacity 1s ease-in-out;
 }
 #img-imagem-ref.visible {
+    opacity: 1;
+}
+#div-imagem-rec {
+    margin: auto;
+    margin-top: 14.1%;
+    margin-right: 22.5%;
+    margin-bottom: 0;
+}
+#img-imagem-rec {
+    display: none;
+    width: 400px;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+#img-imagem-rec.visible {
     opacity: 1;
 }
