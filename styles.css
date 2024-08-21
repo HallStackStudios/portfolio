@@ -370,4 +370,9 @@ h1 {
 #img-imagem-ref {
     width: 800px;
     height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+#img-imagem-ref.visible {
+    opacity: 1;
 }

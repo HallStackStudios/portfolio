@@ -1,6 +1,6 @@
 
 document.addEventListener('DOMContentLoaded', function() {
-    const imageContainer = document.querySelector('.use');
+    const imageContainer = document.querySelector('.use, #img-imagem-ref');
 
     const observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     observer.observe(imageContainer);
 });
+
 document.addEventListener("DOMContentLoaded", function () {
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
