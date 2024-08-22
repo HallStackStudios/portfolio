@@ -399,5 +399,11 @@ h1 {
     }
     #img-imagem-rec {
         display: block;
+        width: 390px;
+        margin: auto;
+        height: 100%;
+        margin-bottom: 0;
+        margin-top: 43.5%;
+        margin-left: 5%;
     }
 }
