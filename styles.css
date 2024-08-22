@@ -364,7 +364,7 @@ h1 {
 }
 #div-imagem-ref {
     margin: auto;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-right: 22.5%;
     margin-bottom: 0;
 }
@@ -398,23 +398,27 @@ h1 {
     #img-imagem-ref {
         display: none;
     }
+    #div-imagem-rec {
+        margin-top: 58%;
+        margin-left: 7%;
+    }
     #img-imagem-rec {
         display: block;
         width: 350px;
         margin: auto;
         height: 100%;
-        margin-top: 45%;
-        margin-left: 6%;
     }
 }
 @media screen and (max-width: 380px) {
+    #div-imagem-rec {
+        margin-top: 100%;
+        margin-left: 7%;
+    }
     #img-imagem-rec {
         display: block;
         width: 300px;
         margin: auto;
         height: 100%;
-        margin-top: 100%;
-        margin-left: 7%;
     }
 }
 @media screen and (min-width: 2000px) {
