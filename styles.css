@@ -148,12 +148,11 @@ abbr {
     margin-top: 150px;
     margin-bottom: 50px;
     transition: transform 0.3s ease 0.1s;
-    /*background-color: rgba(231, 231, 231, 0.836);*/
+    background-color: rgba(231, 231, 231, 0.836);
     opacity: 0;
     transform: translateX(-100px); /* Começa fora da tela à esquerda */
     transition: all 0.5s ease-out;
     max-width: 79%;
-    background-color: pink;
 }
 .visible1 {
     opacity: 1;
