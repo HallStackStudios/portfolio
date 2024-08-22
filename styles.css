@@ -365,8 +365,7 @@ h1 {
 #div-imagem-ref {
     margin: auto;
     margin-top: 3%;
-    margin-right: 22.5%;
-    margin-bottom: 0;
+    margin-right: 21.5%;
 }
 #img-imagem-ref {
     display: block;
@@ -399,8 +398,8 @@ h1 {
         display: none;
     }
     #div-imagem-rec {
-        margin-top: 58%;
-        margin-left: 7%;
+        margin: auto;
+        margin-top: 60%;
     }
     #img-imagem-rec {
         display: block;
