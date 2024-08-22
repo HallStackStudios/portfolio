@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: whitesmoke;
+    background-color: pink;
 }
 .main-content {
     flex-grow: 1;
