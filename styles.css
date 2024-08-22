@@ -3,7 +3,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    
+    height: 100%;
     background-color: whitesmoke;
 }
 .main-content {
@@ -364,7 +364,7 @@ h1 {
 }
 #div-imagem-ref {
     margin: auto;
-    margin-top: 0%;
+    margin-top: 5%;
     margin-right: 22.5%;
     margin-bottom: 0;
 }
@@ -400,11 +400,29 @@ h1 {
     }
     #img-imagem-rec {
         display: block;
-        width: 400px;
+        width: 350px;
         margin: auto;
         height: 100%;
-        margin-bottom: 0;
-        margin-top: 43.5%;
-        margin-left: 2.5%;
+        margin-top: 45%;
+        margin-left: 6%;
+    }
+}
+@media screen and (max-width: 380px) {
+    #img-imagem-rec {
+        display: block;
+        width: 300px;
+        margin: auto;
+        height: 100%;
+        margin-top: 100%;
+        margin-left: 7%;
+    }
+}
+@media screen and (min-width: 2000px) {
+    #div-imagem-ref {
+        margin-top: 20%;
+    }
+    #img-imagem-ref {
+        width: 1200px;
+        height: 100%;
     }
 }
