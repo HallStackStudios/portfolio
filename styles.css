@@ -364,7 +364,7 @@ h1 {
 }
 #div-imagem-ref {
     margin: auto;
-    margin-top: 3%;
+    margin-top: auto;
 }
 #img-imagem-ref {
     display: block;
