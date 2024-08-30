@@ -351,6 +351,10 @@ h1 {
 }
 #link-juv {
     background-image: linear-gradient(to right, #ffe77d, rgba(255, 153, 0, 0.863));
+    max-width: 370px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0;
 }
 .link-jedi {
     text-decoration: none;
