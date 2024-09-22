@@ -428,13 +428,13 @@ h1 {
 }
 @media screen and (min-width: 1000px) and (max-width: 1440px) {
     #img-imagem-ref {
-        width: 1000px;
+        width: 890px;
     }
     .bloco h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
     .home-p {
-        font-size: 24px;
+        font-size: 22px;
     }
 }
 @media screen and (min-width: 1440px) and (max-width: 1920px) {
