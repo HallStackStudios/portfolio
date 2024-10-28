@@ -14,15 +14,7 @@ body {
     position: relative;
 }
 
-#d-link a {
-    color: #3691c9;
-    text-decoration: none;
-    font-weight: bold;
-}
 
-#d-link a:hover {
-    color: rgb(41, 176, 230);
-}
 
 .main-content section {
     margin-bottom: 40px;
@@ -76,13 +68,11 @@ abbr {
 
 .d-link a:hover {
     cursor: pointer;
-    color: rgb(69, 182, 226);
 }
 
 .d-link a {
     display: block;
     padding: 5px;
-    color: rgb(35, 173, 228);
     text-decoration: none;
     font-weight: bold;
 }
@@ -90,14 +80,13 @@ abbr {
 #top-bar {
     width: 100%;
     height: 90px; /* Ajuste a altura conforme necessário */
-    background-color: #000000;
+    background-color: #04080f;
     color: skyblue;
     font-weight: bold;
     position: absolute;
     text-align: center;
     line-height: 60px; /* Centraliza o texto verticalmente */
     z-index: 1000; /* Garante que a barra fique acima de outros elementos */
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.637);
     opacity: 0;
     transform: translateY(-100%);
     transition: transform 1s ease, opacity 1s ease;
@@ -115,40 +104,47 @@ abbr {
     display: block;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.616);
 }
+#imagem-secundaria img {
+    width: 75px;
+    height: 75px;
+}
 .mud-cor-sec {
     display: block;
     color: skyblue;
     text-decoration: none;
     float: left;
 }
-
-.link-origin:hover {
-    color: rgba(255, 255, 255, 0.658);
-    cursor: pointer;
-}
-
 .link-origin {
-    color: rgb(255, 255, 255);
+    color: #dae3e5;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: normal;
     width: 0px;
     padding: 10px;
     height: 0px;
     border-radius: 20px;
+    text-transform: uppercase;
     transition: all 0.2s ease-out;
 }
-
+@media screen and (max-width: 600px) {
+    .link-origin {
+        font-size: 14px;
+    }
+}
+.link-origin:hover {
+    color: #a1c6ea;
+    cursor: pointer;
+}
 .container {
     margin: auto;
     border-radius: 20px;
     padding: 20px;
-    border: 2px solid black;
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.651);
+    border: 1px solid black;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.363);
     width: 79%;
     margin-top: 150px;
     margin-bottom: 50px;
     transition: transform 0.3s ease 0.1s;
-    background-color: rgba(231, 231, 231, 0.836);
+    background-color: #ecf2f3;
     opacity: 0;
     transform: translateX(-100px); /* Começa fora da tela à esquerda */
     transition: all 0.5s ease-out;
@@ -160,7 +156,7 @@ abbr {
 }
 .container:hover {
     transform: scale(1.02);
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.397);
 }
 
 .use {
@@ -181,11 +177,11 @@ abbr {
 }
 .container2 {
     margin: auto;
-    border: 2px solid rgba(0, 0, 0, 0.849);
+    border: 1px solid rgba(0, 0, 0, 0.849);
     border-radius: 20px;
     padding: 20px;
-    background-color: rgba(231, 231, 231, 0.836);
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.651);
+    background-color: #ecf2f3;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.39);
     width: 79%;
     max-width: 79%;
     margin-top: 150px;
@@ -201,15 +197,15 @@ abbr {
 }
 .container2:hover {
     transform: scale(1.02);
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.432);
 }
 .container3 {
     float: left;
-    border: 2px solid rgba(0, 0, 0, 0.849);
+    border: 1px solid rgba(0, 0, 0, 0.849);
     border-radius: 20px;
     padding: 20px;
-    background-color: rgba(231, 231, 231, 0.836);
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.651);
+    background-color: #ecf2f3;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.342);
     width: 60%;
     margin-top: 150px;
     margin-bottom: 150px;
@@ -225,7 +221,7 @@ abbr {
 }
 .container3:hover {
     transform: scale(1.02);
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.651);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.39);
 }
 #contatos {
     margin-top: auto;
@@ -333,11 +329,12 @@ h1 {
 }
 .link-bfs {
     text-decoration: none;
-    color: rgb(71, 193, 241);
     font-weight: bolder;
+    transition: all 0.2s;
+    color: #81b6eb;
 }
 .link-bfs:hover {
-    color: rgb(90, 203, 248);
+    color: #507dbc;
 }
 #imagem-lgs {
     display: flex;
@@ -510,4 +507,14 @@ h1 {
         min-width: 600px;
         min-height: 600px;
     }
+}
+.d-link a {
+    transition: all 0.2s;
+    text-decoration: none;
+    font-weight: bold;
+    color: #87b6e6;
+}
+
+.d-link a:hover {
+    color: #507dbc;
 }
